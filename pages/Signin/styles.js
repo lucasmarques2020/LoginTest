@@ -7,14 +7,15 @@ export const KeyboardView = styled.KeyboardAvoidingView `
 export const Container = styled.View `
     flex: 1;
     width: 100%;
-    background-color: rgba(0,0,0, 0.8);
+    background: #ed6f01;
     align-items: center;
     justify-content: center;
 `
 export const Title = styled.Text `
     font-size: 30px;
     margin-top: 50px;
-    color: white;
+    color: black;
+    font-weight: bold;
 `
 export const Inputs = styled.TextInput`
     color: white;
@@ -29,7 +30,7 @@ export const ButtonSubmit = styled.TouchableOpacity `
     width: 80%;
     padding: 15px;
     border-radius: 20px;
-    background-color: rgba(0,170,251,1);
+    background-color: black;
     align-items: center;
 `
 export const TextoButtonSubmit = styled.Text `

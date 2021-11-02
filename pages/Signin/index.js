@@ -12,16 +12,19 @@ import { KeyboardView,
 function Signin(){
     return(
         <KeyboardView>
-            <BackgroundImagemTela  source={require('../../assets/bk.jpg')}>
-
+            
+            
                 <Container>
                 <LottieView style={{
                     flex: 1,
-                    width: '50%'
+                    width: '70%',
+                    position: 'absolute',
+                    top: 0,
+                    alignItems: 'center'
                 }}
-                    source={require("../../assets/83043-gift-box.json")}
+                    source={require("../../assets/81807-meditation-skull.json")}
                     loop
-                    autoPlay
+                    autoPlay    
                     />
                     <Title>Login</Title>
                     <Inputs
@@ -36,7 +39,7 @@ function Signin(){
                     <ButtonSubmit><TextoButtonSubmit>Entrar</TextoButtonSubmit></ButtonSubmit>
                 
                 </Container>
-            </BackgroundImagemTela>
+                
         </KeyboardView>
        
         
